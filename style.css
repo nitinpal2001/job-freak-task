@@ -1,0 +1,43 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  background-color: #ff914d;
+}
+
+/* Styling for left panel */
+.left-panel {
+  min-width: 20%;
+  display: flex;
+  flex-direction: column;
+  max-width: 260px;
+  height: 100vh;
+  background-color: #38b6ff;
+  color: white;
+}
+
+/* Styling for clickable components in left panel */
+.component {
+  padding: 1.5rem;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s;
+}
+
+.component:hover {
+  background-color: #ddd;
+}
+
+/* Styling for content section */
+.content {
+  margin: 2rem;
+  padding: 20px;
+}
+
+.content button {
+  padding: 0.5rem;
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Left Panel Example</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="left-panel">
+        <div class="component" onclick="showContent('home')">Home</div>
+        <div class="component" onclick="showContent('contact')">Contact</div>
+        <div class="component" onclick="showContent('information')">Information</div>
+        <div class="component" onclick="showContent('guide')">Guide</div>
+    </div>
+
+    <div class="content" id="content">
+        <!-- Default content -->
+        <h1>Welcome to Job Freak</h1>
+        <p>Select a component from the left panel to view its content.</p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
